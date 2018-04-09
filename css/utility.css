@@ -1,0 +1,40 @@
+/*base hmtl components*/
+
+.viewport{
+    height: 100vw;
+}
+
+.body{
+    margin: 0%;
+}
+
+
+/* Flexbox */
+
+.flex-container-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.flex-item{
+    padding: 5px;
+    margin: 0px;
+
+}
+
+.flex-item:hover{
+    display: block;
+    background-color: #000;
+    color: white;
+}
+
+.flex-item:active{
+    background: #ffffff;
+}
+
+
+.flex-auto{
+    flex: auto;
+}
